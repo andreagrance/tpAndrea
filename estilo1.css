@@ -5,12 +5,15 @@ p{
 }
 body{
     background: #D5B9E4;
+    text-align: center;
+    
 }
 
 h1{
     color: #080645;
     font-family: fantasy;
-    font-size: 50;
+    font-size: 60px;
+    text-align: center;
 }
 
 .andy {
