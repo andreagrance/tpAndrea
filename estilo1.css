@@ -1,16 +1,17 @@
 p{
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5BB0D2;
     
 }
 body{
-    background: #D5B9E4;
+    background: #01290D;
     text-align: center;
     
 }
 
 h1{
-    color: #080645;
+    color: #3A7650;
     font-family: fantasy;
     font-size: 60px;
     text-align: center;
@@ -22,5 +23,23 @@ color:  #5A1818;
 font-family: 'Lucida Sans';
 font-style: normal;
 }
-
+img{
+    display: inline-block;
+}
+th{
+    color:#58A970;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+td{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.colum1{
+    color: #83B024;
+}
     
