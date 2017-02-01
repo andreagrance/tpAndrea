@@ -1,0 +1,17 @@
+
+      h1{
+          color: #0E2C4F;
+          font-family: fantasy;
+          font-size: 30px;
+      }
+      body{
+    background: #5D96D7;
+    text-align: center;
+      }
+      form{
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      input{
+          font-family:monospace ;
+      }
+         
