@@ -2,6 +2,12 @@ p{
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5BB0D2;
+    border-style: outset; 
+    border-color: #CEF6CE;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 150px;
+    margin-left: 50px;
 }
 body{
     background: #01290D;
@@ -31,6 +37,7 @@ th{
     color:#58A970;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 input{
     font-family: monospace;
     font-weight: bold;
@@ -39,6 +46,8 @@ input{
 td{
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+     border-style: solid;
+     border-color: #58A970;
 }
 .colum1{
     color: #83B024;
@@ -50,16 +59,14 @@ td{
        font-family: serif;
        font-size: 25px;
    } 
-
-   p{border-style: double; 
-   border-color: #CEF6CE;
+   .fila1 {
+        border-style: solid;
+        border-color: #58A970;
+   }
+   .imagin{
+          margin-top: 0px;
+          margin-bottom: 60px;
+          margin-right: 150px;
+          margin-left: 0px;
    }
 
-   td {
-       border-style: solid;
-       border-color: #58A970;
-   }
-.fila1{
-     border-style: solid;
-       border-color: #58A970;
-}
