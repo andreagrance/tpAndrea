@@ -51,4 +51,15 @@ td{
        font-size: 25px;
    } 
 
+   p{border-style: double; 
+   border-color: #CEF6CE;
+   }
 
+   td {
+       border-style: solid;
+       border-color: #58A970;
+   }
+.fila1{
+     border-style: solid;
+       border-color: #58A970;
+}
