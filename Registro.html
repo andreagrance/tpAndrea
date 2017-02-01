@@ -9,13 +9,22 @@
             <h1>Ingrese sus datos</h1>
             <form action="action_page.php">
               <label>Nombre:</label><input type="text" name="nombre" value="" > <br>   
-              <label>correo:</label> <input type="text" name=" correo" value="" placeholder="kikito@hotmail.com"><br>
-              <label>correo2:</label><input type="text" name="correo2" value="" placeholder="repetir correo"><br>
+              <label>correo:</label> <input type="email" name=" correo" value="" ><br>
+              <label>correo2:</label><input type="email" name="correo2" value="" <br>
               <label>Contrase&ntildea:</label> <input type="password" name="contrasena" value="" placeholder="********"><br>
-              <label>fecha de nacimiento:</label> <input type="datetime" name="fecha" value="" placeholder="aa/aa/aaaa"><br>
-              <label>Pais:</label><input type="text">    <br>
-              <b><input type="submit" value="Guardar"></b>
+              <label>fecha de nacimiento:</label> <input type="date" name="fecha" value=""><br>
+              <label>Pais:</label><input type="text"><br>
+              <label >Sexo:</label> <br>
+               <input type="radio" name="gender" value="masc" checked> <label> Masculino </label><br>
+                 <input type="radio" name="gender" value="fem"> <label> Femenino </label><br>
+                 <input type="radio" name="gender" value="otros"> <label> Otros</label><br>
+             
+              <label>Productos de interes</label> <br>
+                  <input type="checkbox" name="gender" value="otros"> <label> Computadoras</label><br>
+                  <input type="checkbox" name="gender" value="otros"> <label> Televisores</label><br>
+                  <input type="checkbox" name="gender" value="otros"> <label> celulares</label><br>
+                   <input type="checkbox" name="gender" value="otros"> <label> Otros</label><br>
+                    <b><input type="submit" value="Guardar"></b>
             </form>
-            
         </body>
         </html>
