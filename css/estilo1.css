@@ -2,14 +2,15 @@ p{
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5BB0D2;
-    
 }
 body{
     background: #01290D;
     text-align: center;
-    
+    background-image: url("../img/hirooo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
-
 h1{
     color: #3A7650;
     font-family: fantasy;
