@@ -1,13 +1,22 @@
-p{
+#parr1{
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5BB0D2;
     border-style: outset; 
     border-color: #CEF6CE;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     margin-right: 150px;
     margin-left: 50px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #83B024;
+    border-style: inset;
+    border-color: #58A970;
+    margin-bottom: 60px;
+
 }
 body{
     background: #01290D;
@@ -18,36 +27,42 @@ body{
     background-attachment: fixed;
 }
 h1{
-    color: #3A7650;
+    color: #58A970;
     font-family: fantasy;
     font-size: 60px;
     text-align: center;
+       -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color:black;
 }
 
-.andy {
+#tabla1 th {
 font-size: 25px;
-color:  #5A1818;
+color:  #3A7650;
 font-family: 'Lucida Sans';
 font-style: normal;
 }
+
+ table td {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: groove;
+    border-color: #58A970; 
+}
+
 img{
     display: inline-block;
 }
-th{
-    color:#58A970;
+th.colum2{
+    color:#54A979;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: ridge;
+    border-color: #58A970; 
 }
 
 input{
     font-family: monospace;
     font-weight: bold;
     font-size: 15px;
-}
-td{
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-     border-style: solid;
-     border-color: #58A970;
 }
 .colum1{
     color: #83B024;
@@ -59,14 +74,16 @@ td{
        font-family: serif;
        font-size: 25px;
    } 
-   .fila1 {
-        border-style: solid;
-        border-color: #58A970;
-   }
+
    .imagin{
           margin-top: 0px;
           margin-bottom: 60px;
           margin-right: 150px;
           margin-left: 0px;
    }
-
+.ult_col{ 
+     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: none;
+       padding-left: 30px;
+}
