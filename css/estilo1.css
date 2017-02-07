@@ -1,4 +1,4 @@
-#parr1{
+#div1{
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #5BB0D2;
@@ -9,7 +9,7 @@
     margin-right: 150px;
     margin-left: 50px;
 }
-p{
+#div2{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #83B024;
