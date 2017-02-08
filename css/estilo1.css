@@ -16,7 +16,6 @@
     border-style: inset;
     border-color: #58A970;
     margin-bottom: 60px;
-
 }
 body{
     background: #01290D;
@@ -41,8 +40,10 @@ color:  #3A7650;
 font-family: 'Lucida Sans';
 font-style: normal;
 }
-
- table td {
+table{
+    border-collapse: collapse;    
+}
+ td {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-style: groove;
@@ -86,4 +87,34 @@ input{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-style: none;
        padding-left: 30px;
+}
+table a:link{
+    color:red;
+}
+table a:visited{
+    color:green;
+}
+table a:hover{
+    color:hotpink;
+}
+table a:active{
+    color:blue;
+}
+li {
+    font-size: 25px;
+    display: inline;
+    color: #ffffff;
+     
+}
+#barra_fija{
+     width: 100%;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #CEF6CE;
+background-color: #54A979;
+text-align: justify;
+  word-spacing: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
