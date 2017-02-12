@@ -34,12 +34,6 @@ h1{
    -webkit-text-stroke-color:black;
 }
 
-#tabla1 th {
-font-size: 25px;
-color:  #3A7650;
-font-family: 'Lucida Sans';
-font-style: normal;
-}
 table{
     border-collapse: collapse;    
 }
@@ -52,6 +46,7 @@ table{
 
 img{
     display: inline-block;
+    float: left;
 }
 th.colum2{
     color:#54A979;
@@ -81,6 +76,9 @@ input{
           margin-bottom: 60px;
           margin-right: 150px;
           margin-left: 0px;
+          height:350px;
+          width:1250px;
+          alt:"COMPUSAI";
    }
 .ult_col{ 
      color: #ffffff;
@@ -101,24 +99,36 @@ table a:active{
     color:blue;
 }
 li {
-    font-size: 25px;
+    font-size: 20px;
     display: inline;
-    color: #ffffff;
-     
+color:  #01290D;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
 }
 #barra_fija{
      width: 100%;
-    padding: 10px;
+    padding: 5px;
     border-bottom-style: solid;
     border-bottom-color: #CEF6CE;
 background-color: #54A979;
-text-align: justify;
-  word-spacing: 100px;
+text-align: left;
+  word-spacing: 25px;
   position: fixed;
   top: 0px;
   left: 0px;
+  text-indent: -25px;
 }
 #div_titu{
    margin-top: 100px;
    text-shadow: 10px 9px #555756;
+}
+a{
+    text-decoration: none;
+    word-spacing: 2px; 
+}
+.enlace{
+    font-size: 40px;
+}
+p{
+    clear: left;
 }

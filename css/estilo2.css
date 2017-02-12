@@ -1,0 +1,22 @@
+body{
+}
+#Titulo{
+       display: inline;
+       font-size: 50px;
+       font-family: Arial, Helvetica, sans-serif ;
+       font-weight:600;
+       color: #01DFD7;            
+}
+li{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+#sesion{
+    margin-left: 650px;
+}
+#ul2 li{
+    margin: 25px;
+}
+
+
