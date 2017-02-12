@@ -13,10 +13,38 @@ li{
     margin: 10px;
 }
 #sesion{
-    margin-left: 650px;
+    margin-left: 600px;
 }
-#ul2 li{
+a{
+    text-decoration: none;
+    color:#01DFD7;
+}
+a:link {
+    color:#01DFD7; /*enlace no visitado*/
+}
+a:visited {
+    color: #01DFD7 ; /*despues de hacer clik*/
+}
+a:active {
+    color:#088A85 ; /*cuando se hace click*/
+}
+/*word-spacing: 10px;   espaciado entre palabras*/
+.lista_1 a:hover {
+     color: #088A85;
+    padding: 8px;
+    background-color: #D1E9E8;
+    border-radius: 15px;
+}
+#div_2{
+    background-color: #D1E9E8;
+    padding: 10px;
+}
+#div_2 li{
     margin: 25px;
+    color: #088A85;
+}
+#div_2 li:hover{
+    color: #000000;
 }
 
 
