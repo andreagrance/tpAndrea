@@ -1,4 +1,7 @@
 body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 1000px;
 }
 #Titulo{
        display: inline;
@@ -6,6 +9,10 @@ body{
        font-family: Arial, Helvetica, sans-serif ;
        font-weight:600;
        color: #01DFD7;            
+}
+#Titulo:hover{
+    color: #91C5C4;
+    text-shadow: 3px 2px #088A85;
 }
 li{
     display: inline;
@@ -35,16 +42,28 @@ a:active {
     background-color: #D1E9E8;
     border-radius: 15px;
 }
-#div_2{
+#div_1 {
     background-color: #D1E9E8;
-    padding: 10px;
+    position: fixed;
 }
-#div_2 li{
-    margin: 25px;
+#div_1 li{
     color: #088A85;
+    padding: 15px;
 }
-#div_2 li:hover{
+#div_1 li:hover{
     color: #000000;
+    background-color: #91C5C4;
 }
+div.img{
+    margin-top: 70px;
+    float: left;
+}
+div.img img{
+    margin: 5px;
+     width: 300px;
+     height: 200px;
+}
+
+
 
 
