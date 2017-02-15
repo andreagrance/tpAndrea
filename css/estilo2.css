@@ -46,6 +46,7 @@ a:active {
 #div_1 {
     background-color: #D1E9E8;
     position: fixed;
+    width: 2000px;
 }
 #div_1 li{
     color: #088A85;
@@ -57,21 +58,42 @@ a:active {
 }
 div.img{
     margin-top: 70px;
-    float: left;
+     width: 300px;
+     height: 500px;
+     float: left;
+     border: solid;
+     border-color: #088A85;
+     border-radius: 8px;
 }
 div.img:hover{
  background-color: #91C5C4;
   border-radius: 8px;
-   opacity: 0.5;
+
+}
+div.img img:hover{
+    opacity: 0.5;
     filter: alpha(opacity=50);
 }
-
 div.img img{
     margin: 5px;
-     width: 300px;
+     width: 290px;
      height: 200px;
+     border-bottom:solid;
      border-radius: 8px;
 }
+div.parra{
+    margin: 10px 10px 10px 10px;
+     width: 200px;
+     height: 500px;
+      font-family: monospace;
+     text-align: center;
+      font-size: 15px;
+}
+div.parra:hover{
+    color: #D1E9E8;
+}
+
+
 
 
 
