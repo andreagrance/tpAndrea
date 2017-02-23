@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-es">
     <link rel="stylesheet" href="../css/pracss.css">
-
+    <script>
+    function miFuncion(){
+        document.getElementById("id_parra").innerHTML= "Paragraph changed(parrafo modificado)"
+    }
+    </script>
 <head>
     <title>Practica</title>
 </head>
 <body>
 <h1>que se puede hacer con javascrip</h1>
-<p >Javascript puede cambiar los atributos</p>
+<p id="id_parra">un parrafo</p>
+<button type="button" onclick="miFuncion()">Try it</button>
+<p>Javascript puede cambiar los atributos</p>
 <p>En este caso, los cambios de JavaScript al atributo src de una imagen</p>
 <img id="imagen" src="../img/focoapa.jpg" alt="foco apagado">
-<button type="button" onclick="document.getElementById('imagen').src= '../img/andy.jpg'">cambiar</button>
+<button type="button" onclick="document.getElementById('imagen').src= '../img/andy.jpg'">encender</button><br>  
+<button type="button" onclick="document.getElementById('imagen').src= '../img/focoapa.jpg'">apagar</button><br>
+<p id="demo">Javascript puede cambiar el estilo de un elemento html</p>
+<button type="button" onclick="document.getElementById('demo').style.color='green'">cambiar</button><br>
+<p id="demo1">Javascript puede ocultar los elementos html</p>
+<button type="button" onclick="document.getElementById('demo1').style.display='none'"> desaparece   </button><br>
+<button type="button" onclick="document.getElementById('demo1').style.display='block'"> aparece   </button><br>
+<p>Javascript puede mostrar los elementos html ocultos</p>
+<p id="demo2" style="display: none">hola JavaScript!</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='block'"> aparece   </button>
+<p id="jav_ext"> documento de html </p>
+<button type="button" onclick=""></button>
+<script> 
+document.getElementById("demo").innerHTML= "Mi primer JavaScript";
+</script>
+<h2>Declaraciones de Javascript</h2>
+<p>Las declaraciones estan separadas por punto y coma</p>
+<p id="id_z">Acontinuacion z seria igual a =</p>
+<button type="button" onclick="sumar()">Obtener z</button>
+<hr>
+<h2>JavaScript numeros</h2>
+<p>Los numeros se escriben con o sin decimales</p>
+<p id="deci"></p>
+<script src="../js/Practica.js"></script>
 </body> 
 </html>
      
