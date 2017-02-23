@@ -2,6 +2,7 @@ body{
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 1000px;
+
     background: #F0FEFE;
 }
 #cabecera{
@@ -68,6 +69,7 @@ a:active {
 div.img{
     position: relative;
     margin-top: 30px;
+    margin-left: 7px;
      width: 300px;
      height: 530px;
      float: left;
@@ -146,7 +148,27 @@ hr{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+.barra{
+    background-color: #088A85;
+    width: 1600px;
+    Height: 200px;
+    position: absolute;
+    top: 1000px;
+}
+#iconos{
+    position: relative;
+    left: 600px;
+    top: 100px; 
+  
+}
+ a{
+   width: 60px;
+    height: 60px;
+}
 cursor hand 
+
+
+
 
 
 
