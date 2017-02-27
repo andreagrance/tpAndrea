@@ -188,7 +188,7 @@ hr{
 }
 
 .barra{
-    background-color: #088A85;
+    background-color: #0A2A29;
     width: 1265px;
     height: 200px;
     position: relative;
@@ -205,21 +205,28 @@ hr{
     left: 450px;
 }
 
-.enlace{
+.enlace {
+    color: #0A2A29;
     font-size: 35px;
     width: 100px;
-  background: #0B3B39 ;
   border-style: outset;
   border-width: 2px;
   border-color: gray;
   border-radius: 10px;
   margin-left: 20px;
   padding: 10px 15px 10px 15px;
+  background: #91C5C4;
 }
 
+.enlace .fa{
+ color: black;
+}
+
+.enlace .fa:hover{
+  color: #91C5C4;
+}
 .enlace:hover{
-    background: #91C5C4;
-    color: darkslategray;
+     background: darkslategray;
 }
 
 #portada{
@@ -236,8 +243,36 @@ hr{
     right: 30px;
     border-radius: 15px;
 }
+div #mensaje{
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    color:#088A85;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 0,1px;
+    border-radius: 20px;
+    border-color: #0A2A29;
+    text-align: center;
+    padding: 25px 30px 30px 25px;
+    background-color: #f9f9f9;
+}
+div #mensaje:hover{
+      background-color: #91C5C4;
+}
+div #mensaje h2:hover{
+    color: #210B61;
+    font-size: 30px;
+}
+div #mensaje p{
+    color: #000000;
+}
 
-
+div #mensaje p:hover{
+    color: mediumvioletred;
+}
 
 
 
