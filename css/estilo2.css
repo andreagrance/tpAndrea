@@ -31,7 +31,7 @@ li{
 }
 
 #sesion{
-    margin-left: 600px;
+    margin-left: 570px;
 }
 
 a{
@@ -53,11 +53,11 @@ a:active {
 .lista_1 a{
     color: #0B3B39;
     font-weight: 600;
+    padding: 8px;
 }
 /*word-spacing: 10px;   espaciado entre palabras*/
 .lista_1 a:hover {
      color: #000000;
-    padding: 8px;
     background-color: #D1E9E8;
     border-radius: 15px;
 }
@@ -217,11 +217,15 @@ hr.raya1{
      background: darkslategray;
 }
 
-#andy{
+#galeria{
  background-color: #D1E9E8;
      border-radius: 15px;
     width: 1265px;
     height: 500px;
+}
+#galeria img{
+    width: 1200px;
+    margin-left: 35px;
 }
 
 #portada{
@@ -240,6 +244,12 @@ hr.raya1{
     right: 30px;
 
 }
+#portada img:hover{
+     opacity: 0.9;
+    filter: alpha(opacity=50);
+    background: blueviolet;
+}
+
 
 div #mensaje{
     width: 500px;
