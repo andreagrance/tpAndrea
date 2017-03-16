@@ -1,21 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-es">
     <link rel="stylesheet" href="../css/pracss.css">
-    <script>
-    function miFuncion(){
-        document.getElementById("id_parra").innerHTML= "Paragraph changed(parrafo modificado)"
-    }
-    </script>
 <head>
     <title>Practica</title>
 </head>
 <body>
+<h1>Introduccion a Javascript. Primera clase</h1>
+<p id="id1"></p>
+
+<button type="button" onclick="funcion1()"> Click me to display Date and Time</button><br>
+<img id="encendido"src="../img/focoapa.jpg" alt="foco encendido">
+<button type="button" onclick="document.getElementById('encendido').src= '../img/andy.jpg'">encender la luz</button>
+<button type="button" onclick="document.getElementById('encendido').src= '../img/focoapa.jpg'">apagar la luz</button>
+<p id="parrOrigi" style="display:none ">cambiar el tamano del parrafo</p><br>
+<button type="button" onclick="document.getElementById('parrOrigi').style.fontSize='35px'"> aumentar tamano</button>
+<button type="button" onclick="document.getElementById('parrOrigi').style.fontSize='20px'"> disminuir tamano</button>
+<br>
+<button type="button" onclick="document.getElementById('parrOrigi').style.display='none'">desapir </button>
+<br>
+<button type="button" onclick="document.getElementById('parrOrigi').style.display='block'">aparecir </button>
+<hr>
+<!---> ...................................................................</!-->
+<h2>Segunda Clase</h2>
+<p class="parra1">La etiqueta "script", head, body,JavaScript externo, Referencias Externas </p>
+<p id="parra2">parrafo inicial</p>
+<!--><script>document.getElementById('parra2').innerHTML="holis aqui toy"</script> <!-->
+<button onclick="insertar()">INSERTAR</button>
+ <script>
+   function insertar(){
+       document.getElementById('parra2').innerHTML= "parrafo cambiado";
+       }
+   </script>
+<hr>
+<h2>Tercera Clase</h2>
+<p class="parra1">Output: innerHTML, document.write(),window.alert(),console.log() </p>
+<p id="parra3"></p>
+<script>
+    document.getElementById('parra3').innerHTML= 5+6;
+</script>
+
+<script>
+    document.write(25+7);
+</script>
+<button type="button" onclick="document.write(26+10)">sumandun</button>
+<script>
+    window.alert(4+6);
+    </script>
+<script>
+    console.log(9+6);
+    </script>
+
+<hr>
+
+<h2>Cuarta clase</h2>
+<p id="ee"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button type="button" onclick="printNames()">suma</button>
+<button type="button" onclick="printLastname()">multiplicacion</button>
+<!--<input onchange="imprimir()" type="text"></input>-->
+<input  type="text" id="camb"></input>
+<button type="button" onclick="imprimir()">imprimir con click</button>
+
+<p onclick="imprimir()" onmouseover="imprimir()" >Imprimir valor</p>
+
+
+
+    <div>
+<p>esto es un parrafo para practicar como funcionan los div con css</p>
+</div>
 <h1>que se puede hacer con javascrip</h1>
 <p id="id_parra">un parrafo</p>
 <button type="button" onclick="miFuncion()">Try it</button>
 <p>Javascript puede cambiar los atributos</p>
 <p>En este caso, los cambios de JavaScript al atributo src de una imagen</p>
 <img id="imagen" src="../img/focoapa.jpg" alt="foco apagado">
+
 <button type="button" onclick="document.getElementById('imagen').src= '../img/andy.jpg'">encender</button><br>  
 <button type="button" onclick="document.getElementById('imagen').src= '../img/focoapa.jpg'">apagar</button><br>
 <p id="demo">Javascript puede cambiar el estilo de un elemento html</p>
@@ -39,6 +115,14 @@ document.getElementById("demo").innerHTML= "Mi primer JavaScript";
 <h2>JavaScript numeros</h2>
 <p>Los numeros se escriben con o sin decimales</p>
 <p id="deci"></p>
+
+<button type="button" onclick="nombre()">llamar</button>
+
+<p id="parrafin">esto es un parrafo para practicar JavaScript</p>
+
+
+
+
 <script src="../js/Practica.js"></script>
 </body> 
 </html>
